@@ -5,7 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
-h1 span{
+h2{
+    font-size: 40px;
+
+}
+.orange-color{
     color: orange;
 }
 .frist-section{
@@ -39,4 +43,35 @@ h1 span{
 
 .secend-div img{
     width: 95%;
+}
+.last-section{
+    display: flex;
+    
+}
+#experiences{
+    padding-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;   
+}
+.half-width-last{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 40px 80px;   
+}
+#full-stack-developer{
+    border-image:linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#baby-devoloper{
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer{
+    text-align: center;
+    color: gray;
 }
