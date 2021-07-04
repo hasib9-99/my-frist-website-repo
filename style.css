@@ -8,11 +8,11 @@ h1{
 h1 span{
     color: orange;
 }
-section{
+.frist-section{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
+    padding-bottom: 150px;
     
 }
 .half-width{
@@ -28,4 +28,18 @@ section{
     padding: 10px 40px;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
+}
+.secend-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 150px;
+}
+.secend-div{
+width: 50%;
+padding-left: 100px;
+}
+.secend-div img{
+    width: 95%;
 }
