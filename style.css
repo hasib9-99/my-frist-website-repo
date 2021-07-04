@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 100px;
+}
+.half-width img{
+    width: 95%;
+}
+.profile-button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+}
